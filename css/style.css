@@ -1,0 +1,82 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Section */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.name-title {
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo .circle {
+    width: 20px;
+    height: 20px;
+    background-color: #f4b400; /* Màu vàng */
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex; /* Sử dụng flexbox để căn giữa */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    width: 25px; /* Kích thước hình tròn (tùy chỉnh) */
+    height: 25px; /* Kích thước hình tròn (tùy chỉnh) */
+    background-color: #f4b400; /* Màu nền vàng */
+    border-radius: 50%; /* Tạo hình tròn */
+    font-size: 16px; /* Điều chỉnh kích thước chữ */
+    font-weight: bold; /* Tăng độ đậm cho chữ */
+    color: #000000; /* Màu chữ */
+}
+
+.logo .name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 5px;
+    color: #333;
+    line-height: 1;
+}
+
+.logo .title {
+    color: #666;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 1;
+}
+
+/* Navigation Menu */
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: normal;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #f4b400; /* Màu vàng khi hover */
+}
+
+.nav-links li:not(:first-child) {
+    border-left: 1px solid #333; /* Dấu gạch dọc */
+    padding-left: 25px; /* Khoảng cách giữa dấu gạch và nội dung */
+}
